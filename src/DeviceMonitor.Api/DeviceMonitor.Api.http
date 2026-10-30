@@ -1,0 +1,17 @@
+@DeviceMonitor.Api_HostAddress = http://localhost:5096
+
+### GET Request
+
+GET http://localhost:5096/devices
+Accept: application/json
+
+### POST Request
+
+POST http://localhost:5096/devices
+Content-Type: application/json
+
+{
+  "name": "This is a test",
+  "room": "Test",
+  "isOnline": true
+}
