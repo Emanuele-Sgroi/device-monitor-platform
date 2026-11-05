@@ -2,16 +2,16 @@
 
 ### GET Request
 
-GET http://localhost:5096/devices
+GET http://localhost:5096/sites?city=Rome
 Accept: application/json
 
 ### POST Request
 
-POST http://localhost:5096/devices
+POST http://localhost:5096/sites
 Content-Type: application/json
 
 {
-  "name": "This is a test",
-  "room": "Test",
-  "isOnline": true
+  "name": "Shop",
+  "city": "Palermo",
+  "isActive": true
 }

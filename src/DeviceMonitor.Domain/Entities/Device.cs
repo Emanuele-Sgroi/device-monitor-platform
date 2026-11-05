@@ -1,4 +1,4 @@
-namespace DeviceMonitor.Domain;
+namespace DeviceMonitor.Domain.Entities;
 
 public class Device
 {
